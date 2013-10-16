@@ -1,0 +1,46 @@
+@font-face {
+	font-family: Principal; /* nombre de la fuente */
+	src: url(../fonts/principal.woff); /* ubicación de la fuente formato .woff */
+	font-weight:normal;
+}
+
+@font-face {
+	font-family: GrundschriftRegular; /* nombre de la fuente */
+	src: url(../fonts/GrundschriftRegular.ttf); /* ubicación de la fuente formato .woff */
+	font-weight:normal;
+}
+
+
+.navbar-brand {
+	font-family: Principal, Helvetica, Arial, sans-serif;
+	font-size: 36px;
+}
+
+.panel-heading p {
+	font-family: GrundschriftRegular, Helvetica, Arial, sans-serif;
+	font-size: 25px;
+}
+
+.text-slider{
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: Principal;
+	font-size: 25px;
+}
+
+.text{
+	font-family: Principal, Helvetica, Arial, sans-serif;
+	font-size: 25px;
+}
+
+.sponsors{
+	margin-bottom: 0px;
+}
+
+#footer{
+	background-color: black;
+	height: 40px;
+	display: block;
+	color: white;
+	padding: 10px;
+}
