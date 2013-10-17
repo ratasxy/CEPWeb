@@ -12,6 +12,7 @@
 
 
 .navbar-brand {
+  margin-top: 5px;
 	font-family: Principal, Helvetica, Arial, sans-serif;
 	font-size: 36px;
 }
@@ -33,14 +34,97 @@
 	font-size: 25px;
 }
 
+#obj-panel{
+  position:relative;
+  margin:auto;
+  padding-bottom: 40px;
+
+  -moz-border-radius:12px;
+  -webkit-border-radius:12px;
+  border-radius:12px;
+}
+
+#obj-list{
+  font-size: 15px;
+  overflow:hidden;
+  position:relative;
+  padding: 0;
+}
+
+.swControls{
+  position:absolute;
+  margin-top:10px;
+}
+
+a.swShowPage{
+  background-color:#444444;
+  float:left;
+  height:15px;
+  margin:4px 3px;
+  text-indent:-9999px;
+  width:15px;
+
+  -moz-border-radius:7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
+}
+
+a.swShowPage:hover,
+a.swShowPage.active{
+  background-color:#2993dd;
+
+  -moz-box-shadow:0 0 7px #1e435d inset;
+  /*-webkit-box-shadow:0 0 7px #1e435d inset;*/
+  box-shadow:0 0 7px #1e435d inset;
+}
+
+#obj-list li{
+  background-color:#F4F4F4;
+  list-style:none outside none;
+  margin:5px 10px 5px;
+  padding:10px;
+  float:left;
+
+  -moz-box-shadow:0 0 6px #111111;
+  -webkit-box-shadow:0 0 6px #111111;
+  box-shadow:0 0 6px #111111;
+}
+
+#obj-list,
+#obj-list li{
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+  border-radius:8px;
+}
+
+.mypanel {
+  position: relative;
+  height: 270px;
+}
+.mypanel div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 90%;
+  height: 60%;
+  margin: auto;
+}
+
+.clear{
+  clear:both;
+}
+
 .sponsors{
-	margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 #footer{
-	background-color: black;
-	height: 40px;
-	display: block;
-	color: white;
-	padding: 10px;
+  background-color: black;
+  height: 40px;
+  display: block;
+  color: white;
+  padding: 10px;
 }
+
