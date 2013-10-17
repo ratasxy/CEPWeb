@@ -10,6 +10,11 @@
 	font-weight:normal;
 }
 
+body {
+  font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
+  font-size: 17px;
+}
+
 
 .navbar-brand {
   margin-top: 5px;
@@ -45,7 +50,6 @@
 }
 
 #obj-list{
-  font-size: 15px;
   overflow:hidden;
   position:relative;
   padding: 0;
@@ -128,3 +132,13 @@ a.swShowPage.active{
   padding: 10px;
 }
 
+#principal{
+  margin: 20px;
+}
+#principal p{
+  font-size: 24px;
+}
+
+.right{
+  text-align: right;
+}

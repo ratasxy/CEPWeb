@@ -79,6 +79,7 @@
 $(document).ready(function(){
 
   $('#obj-list').sweetPages({perPage:2});
+  $('#obj-list').height(205);
 
   var controls = $('.swControls').detach();
   controls.appendTo('#obj-panel');
