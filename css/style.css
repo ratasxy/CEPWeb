@@ -23,7 +23,6 @@ body {
 }
 
 .panel-heading p {
-	font-family: GrundschriftRegular, Helvetica, Arial, sans-serif;
 	font-size: 25px;
 }
 
@@ -36,7 +35,10 @@ body {
 
 .text{
 	font-family: Principal, Helvetica, Arial, sans-serif;
-	font-size: 25px;
+	font-size: 26px;
+}
+.text2{
+  font-size:34px;
 }
 
 #obj-panel{
@@ -112,7 +114,7 @@ a.swShowPage.active{
   left: 0;
   right: 0;
   width: 90%;
-  height: 60%;
+  height: 80%;
   margin: auto;
 }
 
