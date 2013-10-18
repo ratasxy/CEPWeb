@@ -145,3 +145,12 @@ a.swShowPage.active{
 .toright{
   text-align: right;
 }
+
+#maincarou{
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.carousel-indicators {
+  display: none;
+}
