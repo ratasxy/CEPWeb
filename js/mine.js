@@ -91,7 +91,7 @@ $(document).ready(function(){
 
   var xAutoLoad = setInterval(function() {
     xautoLoadSlider();
-  }, 8000);   
+  }, 10000);   
   /* END New function - Solution */
 
 });
