@@ -10,6 +10,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.media.js"></script>
+    <script type="text/javascript" src="js/jquery.metadata.js"></script>
   </head>
   <body>
   	<div class="navbar navbar-default navbar-fixed-top">
@@ -20,10 +22,10 @@
       					<a href="#">Inicio</a>
       				</li>
       				<li>
-      					<a href="#">Reglamento</a>
+      					<a href="#modalReglamento" role="button" data-toggle="modal">Reglamento</a>
       				</li>
       				<li>
-      					<a href="#">Inscríbete</a>
+      					<a href="#modalInscripcion" role="button" data-toggle="modal">Inscríbete</a>
       				</li>
       			</ul>
     		</div>
@@ -56,8 +58,8 @@
           participantes probarán sus habilidades de abstracción, diseño de algoritmos y
           programación en un ambiente competitivo.</p>
           <div class="toright">
-            <button href="#" class="btn btn-success">Ver Reglamento</button>
-            <button href="#" class="btn btn-info">Inscríbete</button>
+            <button href="#modalReglamento" role="button" data-toggle="modal" class="btn btn-success">Ver Reglamento</button>
+            <button href="#modalInscripcion" role="button" data-toggle="modal" class="btn btn-info">Inscríbete</button>
           </div>
         </div>
       </div>
@@ -120,13 +122,47 @@
     </div>
       <div class="jumbotron sponsors">
 	      <div class="container">
-
+	      	<h3><a href="mailto:acm@ucsp.edu.pe">Become a sponsor</a></h3>
 		  </div>
       </div>
       <div id="footer">
       	Twitter
       </div>
-    
+
+  <!-- Modal -->
+  <div class="modal fade" id="modalReglamento" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Reglamento</h4>
+        </div>
+        <div class="modal-body">
+          <a href="docs/reglamento.pdf" id="reglamento"></a>
+
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="modalInscripcion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Inscripciones</h4>
+        </div>
+        <div class="modal-body">
+        	<h4>Las inscripciones inician el 28 de Octubre de 2013, Vuelve pronto.</h4>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  <script type="text/javascript">
+  	$('#reglamento').media({width:550, height:500});
+  </script>
+
     <script type="text/javascript" src="js/mine.js"></script>
   </body>
 </html>
