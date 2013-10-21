@@ -1,4 +1,4 @@
 CEPWeb
 ======
 
-Concurso Escolar de Programación web 2013
+Web del Concurso Escolar de Programación 2013
