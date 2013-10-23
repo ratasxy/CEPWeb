@@ -154,3 +154,7 @@ a.swShowPage.active{
 .carousel-indicators {
   display: none;
 }
+
+#modalReglamento .modal-dialog{
+  width: 750px;
+}
